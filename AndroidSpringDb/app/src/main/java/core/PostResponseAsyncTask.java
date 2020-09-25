@@ -188,7 +188,7 @@ public class PostResponseAsyncTask extends AsyncTask<String, Void, String> {
             result = result.trim();
             delegate.processFinish(result);
         }
-    }//생성자 호출시 포스트 실행
+    }//생성자 호출시 포스트 실행.
 
     //겟터 셋터 실행 시작
     public String getLoadingMessage() {
